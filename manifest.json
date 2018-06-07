@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "QRcode",
+	"description": "transform url to QRcode",
+	"version": "1.0",
+	"icons": {"128":"icon.png"},
+	"browser_action": {
+		"default_popup": "index.html"
+	},
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"notifications"
+	]
+}
